@@ -19,5 +19,3 @@ if __name__ == '__main__':
         elif l[0]=='reverse':
             l1.reverse()
         else: print("Invalid Input.")
-
-    
