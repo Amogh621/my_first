@@ -25,5 +25,3 @@ else:
             l2.append(x[0])
     l2.sort()
     print l2
-        
-    
