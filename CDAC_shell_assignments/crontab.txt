@@ -1,0 +1,12 @@
+0 14 * * 1-5 ./job.sh      #to execute a job at 2PM every weekday
+0 8-20/3 * * * ./job.sh    #to execute a job between 8AM-8PM at a 3 hour interval everyday
+0 0 */2 2-12/2 * ./job.sh  #to execute a job every odd day of every even month at midnight
+
+* * * * * Command to be executed
+- - - - -
+| | | | |
+| | | | +----- Day of week (0-7)
+| | | +------- Month (1 - 12)
+| | +--------- Day of month (1 - 31)
+| +----------- Hour (0 - 23)
++------------- Min (0 - 59) 
